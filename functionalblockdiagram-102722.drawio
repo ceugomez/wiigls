@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T01:45:03.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="veavsp19UuVbFuWKeotu" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T01:45:47.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="uX5DMQe0zFhsjU8Dd3Ly" version="20.5.1" type="github">
   <diagram id="9PtypYjBhYBW2y5f75Z8" name="Page-1">
-    <mxGraphModel dx="1684" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1324" dy="250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
             <mxPoint x="54" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-7" value="100KHz Clock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-7" value="400KHz Clock - High Speed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
           <mxGeometry x="0.3899" y="1" relative="1" as="geometry">
             <mxPoint x="38" y="11" as="offset" />
           </mxGeometry>
