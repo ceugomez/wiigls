@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T02:16:34.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="DtgxNdw-Xh11eJec3gcA" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T02:27:29.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="z-GgsDCx9pLqppjeTTZl" version="20.5.1" type="github">
   <diagram id="9PtypYjBhYBW2y5f75Z8" name="Page-1">
-    <mxGraphModel dx="1858" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1583" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,11 +17,6 @@
             <mxPoint x="5" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-5" value="I2C SAD:110101xb&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8rjoo6xaxwGKhyFrDOh-4">
-          <mxGeometry x="-0.8385" y="3" relative="1" as="geometry">
-            <mxPoint x="-85" y="-102" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="o8rjoo6xaxwGKhyFrDOh-1" value="High Resolution&lt;br&gt;Low-Range MEMS&lt;br&gt;&lt;b&gt;LM6DSOX&lt;/b&gt;&lt;br&gt;200g Range&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-60" y="120" width="120" height="190" as="geometry" />
         </mxCell>
@@ -34,19 +29,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-6" value="I2C Synchronous Serial Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-6" value="SPI Synchronous Serial" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
           <mxGeometry x="0.3246" y="3" relative="1" as="geometry">
             <mxPoint x="54" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-7" value="400KHz Clock - High Speed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-7" value="4MHz Clock (?)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
           <mxGeometry x="0.3899" y="1" relative="1" as="geometry">
             <mxPoint x="38" y="11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-6" value="I2C: 0x53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8rjoo6xaxwGKhyFrDOh-5">
-          <mxGeometry x="-0.9074" y="-1" relative="1" as="geometry">
-            <mxPoint x="12" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o8rjoo6xaxwGKhyFrDOh-2" value="Low-Resolution High-Range Accelerometer&lt;br&gt;&lt;b&gt;ADXL375&lt;/b&gt;&lt;br&gt;2/4/16g Range" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -74,23 +64,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-20" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-fSHl9zoMlPTrOR2JYS-11">
-          <mxGeometry x="0.5852" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-23" value="vrb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-fSHl9zoMlPTrOR2JYS-11">
+          <mxGeometry x="0.5881" y="-3" relative="1" as="geometry">
+            <mxPoint x="-32" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="J-fSHl9zoMlPTrOR2JYS-10" target="o8rjoo6xaxwGKhyFrDOh-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="60" />
+              <mxPoint x="-80" y="60" />
+              <mxPoint x="-80" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-26" value="0.xx mA @ Vin (High-Performance)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-fSHl9zoMlPTrOR2JYS-24">
+          <mxGeometry x="0.0076" relative="1" as="geometry">
+            <mxPoint x="88" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J-fSHl9zoMlPTrOR2JYS-10" value="600 mAh&lt;br&gt;1C LiPo" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="585" y="330" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-15" value="+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="615" y="370" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="J-fSHl9zoMlPTrOR2JYS-16" target="o8rjoo6xaxwGKhyFrDOh-1">
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" target="o8rjoo6xaxwGKhyFrDOh-1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="320" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="630" y="130" />
-              <mxPoint x="120" y="130" />
-              <mxPoint x="120" y="168" />
+              <mxPoint x="630" y="100" />
+              <mxPoint x="90" y="100" />
+              <mxPoint x="90" y="168" />
               <mxPoint x="60" y="168" />
             </Array>
           </mxGeometry>
@@ -99,9 +101,6 @@
           <mxGeometry x="0.2745" y="-1" relative="1" as="geometry">
             <mxPoint y="-9" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-16" value="-" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="615" y="320" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
