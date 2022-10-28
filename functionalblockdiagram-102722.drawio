@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T00:21:19.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="OuQOteHk5VLLm8a1EUQb" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T01:40:09.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="4GnQ3P7nKHy4CNVHoAJT" version="20.5.1" type="github">
   <diagram id="9PtypYjBhYBW2y5f75Z8" name="Page-1">
-    <mxGraphModel dx="1209" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,8 +12,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-1" value="High Resolution&lt;br&gt;Low-Range MEMS&lt;br&gt;&lt;b&gt;LM6DSOX&lt;/b&gt;&lt;br&gt;200g Range&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="10" y="120" width="120" height="190" as="geometry" />
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-4" value="ODR 1000 Hz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8rjoo6xaxwGKhyFrDOh-4">
+          <mxGeometry x="-0.775" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-5" value="I2C SAD:110101xb&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8rjoo6xaxwGKhyFrDOh-4">
+          <mxGeometry x="-0.8385" y="3" relative="1" as="geometry">
+            <mxPoint x="-85" y="-102" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-1" value="High Resolution&lt;br&gt;Low-Range MEMS&lt;br&gt;&lt;b&gt;LM6DSOX&lt;/b&gt;&lt;br&gt;200g Range&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="120" width="120" height="190" as="geometry" />
         </mxCell>
         <mxCell id="o8rjoo6xaxwGKhyFrDOh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;endArrow=none;endFill=0;" parent="1" source="o8rjoo6xaxwGKhyFrDOh-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -26,16 +36,26 @@
         </mxCell>
         <mxCell id="o8rjoo6xaxwGKhyFrDOh-6" value="I2C Synchronous Serial Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
           <mxGeometry x="0.3246" y="3" relative="1" as="geometry">
-            <mxPoint x="16" y="-7" as="offset" />
+            <mxPoint x="54" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-7" value="400KHz Clock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-7" value="100KHz Clock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="o8rjoo6xaxwGKhyFrDOh-5" vertex="1" connectable="0">
           <mxGeometry x="0.3899" y="1" relative="1" as="geometry">
-            <mxPoint y="11" as="offset" />
+            <mxPoint x="38" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-2" value="Low-Resolution High-Range Accelerometer&lt;br&gt;&lt;b&gt;ADXL375&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="10" y="340" width="120" height="170" as="geometry" />
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-3" value="ODR 6600 Hz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8rjoo6xaxwGKhyFrDOh-5">
+          <mxGeometry x="-0.8621" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-6" value="I2C:&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8rjoo6xaxwGKhyFrDOh-5">
+          <mxGeometry x="-0.9074" y="-1" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-2" value="Low-Resolution High-Range Accelerometer&lt;br&gt;&lt;b&gt;ADXL375&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="340" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="o8rjoo6xaxwGKhyFrDOh-3" value="Cortex M0 Feather&lt;br&gt;16MHz Peak Clock&lt;br&gt;I2C Bus&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="350" y="160" width="120" height="310" as="geometry" />
@@ -48,8 +68,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-1" value="I2C Flash Memory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-1" value="I2C Flash Memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
