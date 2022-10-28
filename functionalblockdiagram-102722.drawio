@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T02:27:54.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="9jQVXAqGOgjifOXdsxxS" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T02:28:15.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="Tqlb6jtoHgk3ludumDFO" version="20.5.1" type="github">
   <diagram id="9PtypYjBhYBW2y5f75Z8" name="Page-1">
     <mxGraphModel dx="1583" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="o8rjoo6xaxwGKhyFrDOh-2" value="Low-Resolution High-Range Accelerometer&lt;br&gt;&lt;b&gt;ADXL375&lt;/b&gt;&lt;br&gt;2/4/16g Range" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-60" y="340" width="120" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-3" value="Cortex M.&lt;font color=&quot;#ff3333&quot;&gt;x&lt;/font&gt; Feather&lt;br&gt;48 MHz Peak Clock&lt;br&gt;I2C Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-3" value="Cortex M.&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;x&lt;/b&gt;&lt;/font&gt; Feather&lt;br&gt;48 MHz Peak Clock&lt;br&gt;I2C Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="350" y="160" width="120" height="310" as="geometry" />
         </mxCell>
         <mxCell id="J-fSHl9zoMlPTrOR2JYS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.223;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=none;endFill=0;" edge="1" parent="1" source="J-fSHl9zoMlPTrOR2JYS-1" target="o8rjoo6xaxwGKhyFrDOh-3">
