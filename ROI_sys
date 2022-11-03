@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T17:50:05.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="8AmP_kGs1TrG-D15QKMY" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T19:01:45.075Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="KWGoL7-32GN81GwbhKrE" version="20.5.1" type="github">
   <diagram id="IT8wZWoJZv9g2erii-Qf" name="Page-1">
-    <mxGraphModel dx="1727" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2336" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
             <mxRectangle width="114" height="104" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YS6qlld8o3wy7jsZZiyH-30" value="Possible Mission Region of Interst" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=hatch;fontSize=19;fontStyle=1" vertex="1" parent="YS6qlld8o3wy7jsZZiyH-28">
+        <mxCell id="YS6qlld8o3wy7jsZZiyH-30" value="Possible Mission Region of Interest" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=hatch;fontSize=19;fontStyle=1" vertex="1" parent="YS6qlld8o3wy7jsZZiyH-28">
           <mxGeometry x="114" width="295" height="104" as="geometry">
             <mxRectangle width="295" height="104" as="alternateBounds" />
           </mxGeometry>
