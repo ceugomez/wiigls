@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T19:28:00.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="ith3FEB6FYXm-MwgYXao" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T19:32:00.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="VoL9g0waxnCc7aZ-5RQk" version="20.5.1" type="github">
   <diagram id="iCEY05B3CywByA0uZ5CT" name="Page-1">
-    <mxGraphModel dx="1727" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1727" dy="2010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,21 @@
         </mxCell>
         <mxCell id="eiMPAgN63PIhxvXiHjyG-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Qout&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="255" y="128.89" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eiMPAgN63PIhxvXiHjyG-15" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Vin = 3.7 V&lt;br&gt;I = 100 mA&lt;br&gt;Qin = 0.37 W&lt;br&gt;T&lt;sub&gt;A&lt;/sub&gt;&amp;nbsp;= 20 C&lt;br&gt;T&lt;sub&gt;s&lt;/sub&gt;&amp;nbsp;= 30 C&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fillStyle=solid;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eiMPAgN63PIhxvXiHjyG-19" value="&lt;b&gt;Known:&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eiMPAgN63PIhxvXiHjyG-20" value="&lt;b&gt;Results:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: start;&quot;&gt;h = 1.8536&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;Q&lt;sub&gt;out&lt;/sub&gt;&amp;nbsp;= 1.484 W&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;Cooling @ 30 C -&amp;gt; no thermal constraint&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eiMPAgN63PIhxvXiHjyG-21" value="Enclosed Free Convection - Vertical Plate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="180" y="-40" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eiMPAgN63PIhxvXiHjyG-24" value="&lt;i&gt;ref Fundamentals of Thermal-Fluid Sciences, 5th Ed.&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="131" y="460" width="490" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
