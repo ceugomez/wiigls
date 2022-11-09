@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T20:55:01.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="J2lB58cpN6e1PFTicx2w" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T21:14:45.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="agrCTBEps3eMeVFRANSb" version="20.5.3" type="github">
   <diagram id="4rZA36_KAXNwuiRUbft2" name="Page-1">
-    <mxGraphModel dx="1656" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1703" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,9 +359,6 @@
             <mxPoint x="920.0000000000002" y="939.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VBi85g_HJScd_7fbZ0oS-53" value="&lt;b&gt;LM6D 15-bit SPI read - 16 8-cycle clock intervals (128 pulses per read)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry y="880" width="520" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="VBi85g_HJScd_7fbZ0oS-54" value="8-bit pulses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="-10" y="963" width="80" height="30" as="geometry" />
         </mxCell>
@@ -497,8 +494,8 @@
             <mxPoint x="1800" y="939.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VBi85g_HJScd_7fbZ0oS-77" value="&lt;b&gt;ADXL 12-bit SPI read - 13 8-cycle clock intervals (104 pulses per read)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="560" y="880" width="520" height="40" as="geometry" />
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-77" value="&lt;b&gt;LM6D 7-Byte Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="880" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBi85g_HJScd_7fbZ0oS-78" value="2 MHz clock timing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="-10" y="983" width="120" height="30" as="geometry" />
@@ -520,15 +517,6 @@
         </mxCell>
         <mxCell id="VBi85g_HJScd_7fbZ0oS-105" value="t&lt;span style=&quot;font-size: 6.94444px;&quot;&gt;clk&lt;/span&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="970" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VBi85g_HJScd_7fbZ0oS-113" value="RW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="820" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="VBi85g_HJScd_7fbZ0oS-114" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="820" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="VBi85g_HJScd_7fbZ0oS-115" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="820" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VBi85g_HJScd_7fbZ0oS-124" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -666,6 +654,66 @@
               <mxPoint x="980" y="160" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-153" value="ADR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-154" value="Read X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-155" value="Read Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-156" value="Read Z" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-157" value="Read X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-158" value="Read Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-159" value="Read Z" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-160" value="&lt;b&gt;ADXL 4-byte Cycle&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="637" y="880" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-161" value="ADR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-162" value="Read X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-163" value="Read Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="717" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-164" value="Read Z" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="757" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-165" value="&lt;b&gt;LM6D 7-Byte Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-166" value="ADR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-167" value="Read X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-168" value="Read Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-169" value="Read Z" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-170" value="Read X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-171" value="Read Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBi85g_HJScd_7fbZ0oS-172" value="Read Z" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="820" width="40" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
