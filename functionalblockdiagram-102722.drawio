@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T21:16:53.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="D_Pw-9VW5uPKM18o5KjK" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T04:24:29.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="jswwcsrf6_SsWc3e6_5b" version="20.5.3" type="github">
   <diagram id="9PtypYjBhYBW2y5f75Z8" name="Page-1">
-    <mxGraphModel dx="1164" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1203" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,7 @@
         <mxCell id="o8rjoo6xaxwGKhyFrDOh-2" value="Low-Resolution High-Range Accelerometer&lt;br&gt;&lt;b&gt;ADXL375&lt;/b&gt;&lt;br&gt;2/4/16g Range" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-60" y="340" width="120" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="o8rjoo6xaxwGKhyFrDOh-3" value="Cortex M4&amp;nbsp;Feather&lt;br&gt;48 MHz Peak Clock&lt;br&gt;Serial Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="o8rjoo6xaxwGKhyFrDOh-3" value="Cortex M0+ Feather&lt;br&gt;48 MHz Peak Clock&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="350" y="160" width="120" height="310" as="geometry" />
         </mxCell>
         <mxCell id="J-fSHl9zoMlPTrOR2JYS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.223;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=none;endFill=0;" parent="1" source="J-fSHl9zoMlPTrOR2JYS-1" target="o8rjoo6xaxwGKhyFrDOh-3" edge="1">
@@ -64,9 +64,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J-fSHl9zoMlPTrOR2JYS-23" value="vrb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="J-fSHl9zoMlPTrOR2JYS-11" vertex="1" connectable="0">
+        <mxCell id="J-fSHl9zoMlPTrOR2JYS-23" value="52 mW" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="J-fSHl9zoMlPTrOR2JYS-11" vertex="1" connectable="0">
           <mxGeometry x="0.5881" y="-3" relative="1" as="geometry">
-            <mxPoint x="-32" y="-8" as="offset" />
+            <mxPoint x="-22" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J-fSHl9zoMlPTrOR2JYS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="J-fSHl9zoMlPTrOR2JYS-10" target="o8rjoo6xaxwGKhyFrDOh-2" edge="1">
