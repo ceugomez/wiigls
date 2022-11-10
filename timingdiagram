@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T00:10:42.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="w21YgLwtitzUv4hbput-" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-10T00:22:31.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="ex9f6hojHiYYWdgT87PT" version="20.5.3" type="github" pages="3">
   <diagram id="4rZA36_KAXNwuiRUbft2" name="Timing Diagram, SPI">
     <mxGraphModel dx="809" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -531,7 +531,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aS5rEiiT17X-KpkPtK1q-7" value="8:1 register reads, LM6DSOX:ADXL375" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-14" y="1110" width="310" height="30" as="geometry" />
+          <mxGeometry y="1110" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aS5rEiiT17X-KpkPtK1q-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -633,7 +633,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aS5rEiiT17X-KpkPtK1q-39" value="t&lt;sub&gt;&amp;nbsp;&lt;/sub&gt;= 32 μs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="-20" y="1288" width="80" height="40" as="geometry" />
+          <mxGeometry x="-19" y="1280" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aS5rEiiT17X-KpkPtK1q-40" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="41" y="1180" width="29" height="50" as="geometry" />
@@ -687,6 +687,15 @@
           <mxGeometry x="60" width="120" height="30" as="geometry">
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aS5rEiiT17X-KpkPtK1q-62" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1360" as="sourcePoint" />
+            <mxPoint x="350" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aS5rEiiT17X-KpkPtK1q-63" value="t&lt;sub&gt;&amp;nbsp;&lt;/sub&gt;= 288 μs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="85" y="1360" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
