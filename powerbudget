@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T21:49:35.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hfALkOSoBUF9iSJz5MM2" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-11T21:54:08.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iZ23Z3wA_mExfXf03u6Y" version="20.3.7" type="github" pages="2">
   <diagram id="hq0amkVPkCznOGqb4Pv_" name="REF">
     <mxGraphModel dx="934" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -118,10 +118,16 @@
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MzTcllwIbexr_XaAPmlV-21" value="&lt;b&gt;25.65&amp;nbsp;mW&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=#b85450;fontSize=16;" vertex="1" parent="MzTcllwIbexr_XaAPmlV-18">
+        <mxCell id="MzTcllwIbexr_XaAPmlV-21" value="&lt;b&gt;25.65&amp;nbsp;mW&lt;/b&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;sup style=&quot;&quot;&gt;†&lt;/sup&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=#b85450;fontSize=16;" vertex="1" parent="MzTcllwIbexr_XaAPmlV-18">
           <mxGeometry x="390" width="261" height="30" as="geometry">
             <mxRectangle width="261" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yMz7zh84UkUB4svkWscH-1" value="* Cortex M0+ sampled at 48 MHz, Vdd = 3.6V, 130°C die temperature (maximum)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-120" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMz7zh84UkUB4svkWscH-2" value="&lt;sup&gt;†&lt;/sup&gt; Maximum ideal draw under constant loading. Spikes in loading and component inefficiencies will affect this value.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-95" width="840" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
