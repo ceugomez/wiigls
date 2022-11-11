@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T21:54:12.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nADMWf-WkDhroQ0H3lQs" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-11T21:54:23.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-hU4dYYHRf4tVrM8BLMv" version="20.3.7" type="github" pages="2">
   <diagram id="hq0amkVPkCznOGqb4Pv_" name="REF">
     <mxGraphModel dx="934" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,10 +123,10 @@
             <mxRectangle width="325" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yMz7zh84UkUB4svkWscH-1" value="* Cortex M0+ sampled at 48 MHz, Vdd = 3.6V, 130°C die temperature (maximum)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="yMz7zh84UkUB4svkWscH-1" value="&lt;span style=&quot;font-style: normal;&quot;&gt;*&lt;/span&gt; Cortex M0+ sampled at 48 MHz, Vdd = 3.6V, 130°C die temperature (maximum)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="160" y="-120" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yMz7zh84UkUB4svkWscH-2" value="&lt;sup&gt;†&lt;/sup&gt; Maximum ideal draw under constant loading. Spikes in loading and component inefficiencies will affect this value.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="yMz7zh84UkUB4svkWscH-2" value="&lt;sup style=&quot;font-style: normal;&quot;&gt;†&lt;/sup&gt; Maximum ideal draw under constant loading. Spikes in loading and component inefficiencies will affect this value.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="160" y="-95" width="840" height="40" as="geometry" />
         </mxCell>
       </root>
