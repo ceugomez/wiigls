@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T21:47:08.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KeAHnC771Wm_x2xNnk57" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-11T21:47:19.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vuW_-oPQ-_CSIt82LkcZ" version="20.3.7" type="github" pages="2">
   <diagram id="hq0amkVPkCznOGqb4Pv_" name="REF">
-    <mxGraphModel dx="1635" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1924" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,9 @@
         </mxCell>
         <mxCell id="eqzzLysZExWGxzk98Qea-3" value="LM6DSOX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="745" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eqzzLysZExWGxzk98Qea-4" value="CORTEX M0+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1385" y="180" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
