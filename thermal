@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T20:41:31.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.3.7" etag="hi3ew4JF10iSeFv5fRlq" type="github"><diagram id="I5AZBiClLEcCsrZq7S_u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-11T20:44:42.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zVYIF4D2iKNeqdMRWp4L" version="20.3.7" type="github">
+  <diagram id="I5AZBiClLEcCsrZq7S_u" name="Page-1">
+    <mxGraphModel dx="1635" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-1" value="Cortex M0+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="250" y="580" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-2" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="380" y="520" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-3" value="Air Gap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="445" y="520" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-4" value="~2mm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="445" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-5" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-6" value="CF Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-7" value="0.04mm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=hatch;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="460" width="850" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ixC9vxN1EHsh5xUSZar9-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5" y="600" as="sourcePoint" />
+            <mxPoint x="845" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
