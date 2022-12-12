@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T17:43:56.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="h-Em0Wyq8RUxybPoz9Dy" version="20.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-12T04:19:35.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="QVgdGTNpJmvMp1JwLTbi" version="20.6.2" type="github" pages="4">
   <diagram id="4rZA36_KAXNwuiRUbft2" name="Timing Diagram, SPI">
-    <mxGraphModel dx="942" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bxiV722vVYWA5nXYvvd5" name="Action Timing Table">
-    <mxGraphModel dx="782" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LLgPi-ecflvTzSqOD4Sw" name="Link Sequence">
-    <mxGraphModel dx="1686" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -567,13 +567,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="veAxM8oqi0EuUu7y5B70" name="Link Sequencing 2">
-    <mxGraphModel dx="1310" dy="-218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="-176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KxdC91vUqMLSabu6gFfj-1" value="8:1 register reads, LM6DSOX:ADXL375" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-14" y="1140" width="310" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="KxdC91vUqMLSabu6gFfj-2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="1260" as="sourcePoint" />
@@ -658,7 +655,7 @@
             <mxPoint x="480.0000000000002" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-16" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-16" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry y="1180" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KxdC91vUqMLSabu6gFfj-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=1;rounded=0;jumpSize=5;" parent="1" edge="1">
@@ -679,7 +676,7 @@
         <mxCell id="KxdC91vUqMLSabu6gFfj-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" parent="KxdC91vUqMLSabu6gFfj-20" vertex="1">
           <mxGeometry y="30" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-22" value="LM6DSOX" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=13;fontStyle=1" parent="KxdC91vUqMLSabu6gFfj-21" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-22" value="LSM6DSOX" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=13;fontStyle=1" parent="KxdC91vUqMLSabu6gFfj-21" vertex="1">
           <mxGeometry width="97" height="20" as="geometry">
             <mxRectangle width="97" height="20" as="alternateBounds" />
           </mxGeometry>
@@ -702,22 +699,22 @@
             <mxRectangle width="193" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-27" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-27" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="80" y="1180" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-28" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-28" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="160" y="1180" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-29" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-29" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="240" y="1180" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-30" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-30" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="320" y="1180" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-31" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-31" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="400" y="1180" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-32" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-32" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="480" y="1180" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KxdC91vUqMLSabu6gFfj-33" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
@@ -756,7 +753,7 @@
             <mxPoint x="680" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KxdC91vUqMLSabu6gFfj-39" value="Read LM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="KxdC91vUqMLSabu6gFfj-39" value="Read LSM6D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="560" y="1180" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KxdC91vUqMLSabu6gFfj-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=1;rounded=0;jumpSize=5;" parent="1" edge="1">
